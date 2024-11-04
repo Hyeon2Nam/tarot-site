@@ -1,0 +1,423 @@
+{
+  "major": [
+    {
+      "name": "major-fool",
+      "up": {
+        "fortune": "새로운 경험을 할 수 있을 것이다.",
+        "love": {
+          "1": "어린아이처럼 순수하다.",
+          "2": "상대방을 통해 긍정적이고 즐거운 만남을 겪을 것이다.",
+          "3": "순진하고, 낙천적이며 긍정적, 상대방에게 웃음을 가져다준다",
+          "4": "새로운 시도를 하지 않았기 때문",
+          "5": "새로운 시도를 해보는 것이 좋다. 곧 만날 수 있을 것이다.",
+          "6": "예상치 못한 곳에서 마주할 수 있다. 방문해본적 없는 장소에서 만날 수 있다"
+        },
+        "career": {
+          "1": "여행가이드, 프리랜서",
+          "2": "지금 당장 공부든 뭐든 실행해야한다.",
+          "3": "일에 너무 열심인 나머지 과하게 전문가처럼 행동하게 될 수 있다",
+          "4": "좋은 성과를 나타낼것이다",
+          "5": "너무 창의적이고 재밌는 것만 쫓지 말고, 지루하더라도 노력해야 하는 일을 잘 처리해야 한다",
+          "6": "자신에 대한 의심이나 두려움을 떨쳐 버려야한다",
+          "7": "새로운 직업이나 방향에 완전히 전념한다면, 위대한 것들이 당신을 기다릴 것이다"
+        },
+        "money": {
+          "1": "",
+          "2": "",
+          "3": "",
+          "4": "",
+          "5": ""
+        }
+      },
+      "down": {
+        "fortune": "일에 집중이 안되고, 남들에게 무시당할 수 있다",
+        "love": {
+          "1": "어린아이처럼 순수하다.",
+          "2": "좋지않은 감정을 가질 것이다",
+          "3": "무모하고, 태만, 산만하며 무지하다",
+          "4": "잠재적인 위험이 당신을 가로막고 있다",
+          "5": "아직은 때가 아니다. 좀 더 기다리고 신중을 가할 필요가 있다",
+          "6": "예상치 못한 곳에서 마주할 수 있다. 방문해본적 없는 장소에서 만날 수 있다"
+        },
+        "career": {
+          "1": "예술가, 탐험 또는 등반가",
+          "2": "신중히 생각을 하고 일을 실행해야한다.",
+          "3": "잠재적 위험때문에 큰일이 있을 수 있다",
+          "4": "좋은 성과를 내지 못할 것이다",
+          "5": "매우 신중하게 행동을 해야한다",
+          "6": "자신의 산만, 태만, 무지때문이다",
+          "7": "결과를 무시하지 않는다면 좋은 결과가 있을 수 있다."
+        },
+        "money": {
+          "1": "",
+          "2": "",
+          "3": "",
+          "4": "",
+          "5": ""
+        }
+      },
+      "ys": "yes"
+    },
+    {
+      "name": "major-magician",
+      "up": {
+        "fortune": "",
+        "love": "",
+        "career": "",
+        "money": "",
+        "ys": ""
+      },
+      "down": {
+        "fortune": "",
+        "love": "",
+        "career": "",
+        "money": "",
+        "ys": ""
+      }
+    },
+    {
+      "name": "major-highpriestess",
+      "up": {
+        "fortune": "",
+        "love": "",
+        "career": "",
+        "money": "",
+        "ys": ""
+      },
+      "down": {
+        "fortune": "",
+        "love": "",
+        "career": "",
+        "money": "",
+        "ys": ""
+      }
+    },
+    {
+      "name": "major-empress",
+      "up": {
+        "fortune": "",
+        "love": "",
+        "career": "",
+        "money": "",
+        "ys": ""
+      },
+      "down": {
+        "fortune": "",
+        "love": "",
+        "career": "",
+        "money": "",
+        "ys": ""
+      }
+    },
+    {
+      "name": "major-emperor",
+      "up": {
+        "fortune": "",
+        "love": "",
+        "career": "",
+        "money": "",
+        "ys": ""
+      },
+      "down": {
+        "fortune": "",
+        "love": "",
+        "career": "",
+        "money": "",
+        "ys": ""
+      }
+    },
+    {
+      "name": "major-hierophant",
+      "up": {
+        "fortune": "",
+        "love": "",
+        "career": "",
+        "money": "",
+        "ys": ""
+      },
+      "down": {
+        "fortune": "",
+        "love": "",
+        "career": "",
+        "money": "",
+        "ys": ""
+      }
+    },
+    {
+      "name": "major-lovers",
+      "up": {
+        "fortune": "",
+        "love": "",
+        "career": "",
+        "money": "",
+        "ys": ""
+      },
+      "down": {
+        "fortune": "",
+        "love": "",
+        "career": "",
+        "money": "",
+        "ys": ""
+      }
+    },
+    {
+      "name": "major-chariot",
+      "up": {
+        "fortune": "",
+        "love": "",
+        "career": "",
+        "money": "",
+        "ys": ""
+      },
+      "down": {
+        "fortune": "",
+        "love": "",
+        "career": "",
+        "money": "",
+        "ys": ""
+      }
+    },
+    {
+      "name": "major-strength",
+      "up": {
+        "fortune": "",
+        "love": "",
+        "career": "",
+        "money": "",
+        "ys": ""
+      },
+      "down": {
+        "fortune": "",
+        "love": "",
+        "career": "",
+        "money": "",
+        "ys": ""
+      }
+    },
+    {
+      "name": "major-hermit",
+      "up": {
+        "fortune": "",
+        "love": "",
+        "career": "",
+        "money": "",
+        "ys": ""
+      },
+      "down": {
+        "fortune": "",
+        "love": "",
+        "career": "",
+        "money": "",
+        "ys": ""
+      }
+    },
+    {
+      "name": "major-wheel",
+      "up": {
+        "fortune": "",
+        "love": "",
+        "career": "",
+        "money": "",
+        "ys": ""
+      },
+      "down": {
+        "fortune": "",
+        "love": "",
+        "career": "",
+        "money": "",
+        "ys": ""
+      }
+    },
+    {
+      "name": "major-justice",
+      "up": {
+        "fortune": "",
+        "love": "",
+        "career": "",
+        "money": "",
+        "ys": ""
+      },
+      "down": {
+        "fortune": "",
+        "love": "",
+        "career": "",
+        "money": "",
+        "ys": ""
+      }
+    },
+    {
+      "name": "major-hangedman",
+      "up": {
+        "fortune": "",
+        "love": "",
+        "career": "",
+        "money": "",
+        "ys": ""
+      },
+      "down": {
+        "fortune": "",
+        "love": "",
+        "career": "",
+        "money": "",
+        "ys": ""
+      }
+    },
+    {
+      "name": "major-death",
+      "up": {
+        "fortune": "",
+        "love": "",
+        "career": "",
+        "money": "",
+        "ys": ""
+      },
+      "down": {
+        "fortune": "",
+        "love": "",
+        "career": "",
+        "money": "",
+        "ys": ""
+      }
+    },
+    {
+      "name": "major-temperance",
+      "up": {
+        "fortune": "",
+        "love": "",
+        "career": "",
+        "money": "",
+        "ys": ""
+      },
+      "down": {
+        "fortune": "",
+        "love": "",
+        "career": "",
+        "money": "",
+        "ys": ""
+      }
+    },
+    {
+      "name": "major-devil",
+      "up": {
+        "fortune": "",
+        "love": "",
+        "career": "",
+        "money": "",
+        "ys": ""
+      },
+      "down": {
+        "fortune": "",
+        "love": "",
+        "career": "",
+        "money": "",
+        "ys": ""
+      }
+    },
+    {
+      "name": "major-tower",
+      "up": {
+        "fortune": "",
+        "love": "",
+        "career": "",
+        "money": "",
+        "ys": ""
+      },
+      "down": {
+        "fortune": "",
+        "love": "",
+        "career": "",
+        "money": "",
+        "ys": ""
+      }
+    },
+    {
+      "name": "major-star",
+      "up": {
+        "fortune": "",
+        "love": "",
+        "career": "",
+        "money": "",
+        "ys": ""
+      },
+      "down": {
+        "fortune": "",
+        "love": "",
+        "career": "",
+        "money": "",
+        "ys": ""
+      }
+    },
+    {
+      "name": "major-moon",
+      "up": {
+        "fortune": "",
+        "love": "",
+        "career": "",
+        "money": "",
+        "ys": ""
+      },
+      "down": {
+        "fortune": "",
+        "love": "",
+        "career": "",
+        "money": "",
+        "ys": ""
+      }
+    },
+    {
+      "name": "major-sun",
+      "up": {
+        "fortune": "",
+        "love": "",
+        "career": "",
+        "money": "",
+        "ys": ""
+      },
+      "down": {
+        "fortune": "",
+        "love": "",
+        "career": "",
+        "money": "",
+        "ys": ""
+      }
+    },
+    {
+      "name": "major-judgement",
+      "up": {
+        "fortune": "",
+        "love": "",
+        "career": "",
+        "money": "",
+        "ys": ""
+      },
+      "down": {
+        "fortune": "",
+        "love": "",
+        "career": "",
+        "money": "",
+        "ys": ""
+      }
+    },
+    {
+      "name": "major-world",
+      "up": {
+        "fortune": "",
+        "love": "",
+        "career": "",
+        "money": "",
+        "ys": ""
+      },
+      "down": {
+        "fortune": "",
+        "love": "",
+        "career": "",
+        "money": "",
+        "ys": ""
+      }
+    }
+  ],
+  "cup": [],
+  "pentacles": [],
+  "swords": [],
+  "wand": []
+}
