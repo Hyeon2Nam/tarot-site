@@ -50,12 +50,75 @@ html {
 
 .card {
   width: 30%;
+  height: 20vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 100px;
+  margin-bottom: 250px;
+  text-decoration: none;
+  color: white;
+  font-size: 40px;
+  position: relative;
 }
 
+.card::after {
+  background: url(../../cards/back.png) no-repeat center center / cover;
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: calc(100vw / 6);
+  height: 75%;
+  /* background-repeat: no-repeat; */
+  /* left: 118px; */
+  /* top: 48px; */
+}
 .card img {
   width: 70%;
+}
+
+.star-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.star-wrapper img {
+  width: 7%;
+  animation: star-fall 7s infinite ease-in-out;
+  filter: drop-shadow(0px 0px 8px white);
+  z-index: -10;
+  transform: translateY(-50vw);
+  opacity: 64%;
+}
+
+.star-wrapper :nth-child(1) {
+  animation-delay: 1s;
+}
+
+.star-wrapper :nth-child(2) {
+  animation-delay: 3s;
+}
+
+.star-wrapper :nth-child(3) {
+  animation-delay: 2s;
+}
+
+.star-wrapper :nth-child(4) {
+  animation-delay: 6s;
+}
+
+.star-wrapper :nth-child(5) {
+  animation-delay: 4s;
+}
+
+.star-wrapper :nth-child(6) {
+  animation-delay: 5s;
+}
+
+@keyframes star-fall {
+  0% {
+    transform: translateY(-50vw);
+  }
+  100% {
+    transform: translateY(100vh);
+  }
 }
