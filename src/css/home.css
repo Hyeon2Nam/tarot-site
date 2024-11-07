@@ -122,9 +122,9 @@ html {
 
 @keyframes star-fall {
   0% {
-    transform: translateY(-100vw);
+    transform: translateY(-10vw) rotate(0deg);
   }
   100% {
-    transform: translateY(200vh);
+    transform: translateY(200vh) rotate(360deg);
   }
 }
