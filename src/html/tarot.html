@@ -10,7 +10,15 @@
   </head>
   <body>
     <div class="title">카드를 <span id="card-cnt"></span>장 선택해주세요</div>
+    <img class="star s1" src="../../img/star_2.png" alt="" />
+    <img class="star s2" src="../../img/star_2.png" alt="" />
     <div class="cards" id="cards"></div>
+    <img class="star s3" src="../../img/star_2.png" alt="" />
+    <img class="star s4" src="../../img/star_2.png" alt="" />
     <script src="../js/tarot.js"></script>
+    <div class="button-wrapper">
+      <button onclick="resetSelect()">다시 고르기</button>
+      <button id="send-btn" onclick="sendResult()" disabled>결과보기</button>
+    </div>
   </body>
 </html>

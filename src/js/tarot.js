@@ -28,15 +28,20 @@ function initialize() {
       break;
 
     default:
+      location.href = "home.html";
       break;
   }
 
   if (max !== "") {
     document.getElementById("card-cnt").innerText = max;
-  } else if (max === null || max === undefined || max === "") {
+  } else if (max === null || max === undefined || max === 0) {
     location.href = "home.html";
   }
 
+  initCards();
+}
+
+function initCards() {
   const jsonData = JSON.parse(JSON.stringify(Cards));
   cardList = cardList.concat(jsonData.major);
   cardList = cardList.concat(jsonData.cup);
@@ -49,7 +54,7 @@ function makeCardFan() {
   let text = "";
 
   for (let i = 0; i < cardList.length; i++) {
-    text += `<div class="card" id="c${i}" onclick="addCardList(${i})">
+    text += `<div class="card" id="c${i}" onclick="addCardList()">
       <img src="../../cards/back.png" alt="" />
     </div>`;
   }
@@ -57,13 +62,43 @@ function makeCardFan() {
   document.getElementById("cards").innerHTML = text;
 }
 
-function addCardList(num) {
-  selected.push(cardList[+num]);
-  cardList.splice(+num, 1);
+function addCardList() {
+  if (cnt === max) {
+    document.getElementById("send-btn").disabled = false;
+    return;
+  }
+
+  num = Math.floor(Math.random() * 78);
+
+  selected.push(cardList[num]);
+  cardList.splice(num, 1);
   makeCardFan();
 
   cnt++;
+
+  document.getElementById("card-cnt").innerText = max - cnt;
+
   if (cnt === max) {
-    console.log(selected);
+    document.getElementById("send-btn").disabled = false;
   }
+}
+
+function resetSelect() {
+  document.getElementById("card-cnt").innerText = max;
+  document.getElementById("send-btn").disabled = true;
+
+  cnt = 0;
+  selected = [];
+  cardList = [];
+
+  initCards();
+  makeCardFan();
+}
+
+function sendResult() {
+  const urlParams = new URL(location.href).searchParams;
+  const type = urlParams.get("type");
+
+  localStorage.setItem("tarot", JSON.stringify(selected));
+  location.href = "result.html?type=" + type;
 }
