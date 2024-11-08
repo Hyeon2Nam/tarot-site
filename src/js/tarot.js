@@ -2,13 +2,14 @@ let max,
   cnt = 0;
 let cardList = [];
 let selected = [];
+let type = "";
 
 initialize();
 makeCardFan();
 
 function initialize() {
   const urlParams = new URL(location.href).searchParams;
-  const type = urlParams.get("type");
+  type = urlParams.get("type");
 
   switch (type) {
     case "fortune":
@@ -68,9 +69,20 @@ function addCardList() {
     return;
   }
 
-  num = Math.floor(Math.random() * 78);
+  num = Math.floor(Math.random() * 156);
 
-  selected.push(cardList[num]);
+  let upDown = num >= 78 ? "down" : "up";
+  let tmp = cardList[upDown === "down" ? num - 78 : num];
+  let obj = {
+    name: tmp.name,
+    "kor-name": tmp["kor-name"],
+    upDown: upDown,
+  };
+
+  if (type === "ys") obj[type] = tmp.ys;
+  else obj[type] = tmp[upDown][type];
+
+  selected.push(obj);
   cardList.splice(num, 1);
   makeCardFan();
 

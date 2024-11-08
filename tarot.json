@@ -1301,7 +1301,7 @@ Cards = {
   ],
   "cup": [
     {
-      "name": "cupa",
+      "name": "cup-a",
       "kor-name": "컵 A",
       "up": {
         "fortune": "새로운 감정이나 사랑의 시작을 알리는 날.",
@@ -1360,7 +1360,7 @@ Cards = {
       "ys": "yes"
     },
     {
-      "name": "cup2",
+      "name": "cup-2",
       "kor-name": "컵 2",
       "up": {
         "fortune": "상대와의 조화로운 관계가 깊어지는 날.",
@@ -1419,7 +1419,7 @@ Cards = {
       "ys": "no"
     },
     {
-      "name": "cup3",
+      "name": "cup-3",
       "kor-name": "컵 3",
       "up": {
         "fortune": "기쁨과 축하의 순간을 즐길 수 있는 날.",
@@ -1478,7 +1478,7 @@ Cards = {
       "ys": "no"
     },
     {
-      "name": "cup4",
+      "name": "cup-4",
       "kor-name": "컵 4",
       "up": {
         "fortune": "안정적인 감정과 기쁨을 느끼는 날.",
@@ -1537,7 +1537,7 @@ Cards = {
       "ys": "no"
     },
     {
-      "name": "cup5",
+      "name": "cup-5",
       "kor-name": "컵 5",
       "up": {
         "fortune": "과거의 상처를 치유할 수 있는 날.",
@@ -1596,7 +1596,7 @@ Cards = {
       "ys": "no"
     },
     {
-      "name": "cup6",
+      "name": "cup-6",
       "kor-name": "컵 6",
       "up": {
         "fortune": "과거의 좋은 기억을 떠올리게 하는 날.",
@@ -1654,7 +1654,7 @@ Cards = {
       "ys": "no"
     },
     {
-      "name": "cup7",
+      "name": "cup-7",
       "kor-name": "컵 7",
       "up": {
         "fortune": "다양한 선택과 기회가 있는 날.",
@@ -1713,7 +1713,7 @@ Cards = {
       "ys": "no"
     },
     {
-      "name": "cup8",
+      "name": "cup-8",
       "kor-name": "컵 8",
       "up": {
         "fortune": "새로운 시작과 기회를 찾는 날.",
@@ -1772,7 +1772,7 @@ Cards = {
       "ys": "no"
     },
     {
-      "name": "cup9",
+      "name": "cup-9",
       "kor-name": "컵 9",
       "up": {
         "fortune": "행복한 순간을 즐기는 날.",
@@ -1831,7 +1831,7 @@ Cards = {
       "ys": "no"
     },
     {
-      "name": "cup10",
+      "name": "cup-10",
       "kor-name": "컵 10",
       "up": {
         "fortune": "안정된 감정과 행복한 순간을 느끼는 날.",
@@ -1890,7 +1890,7 @@ Cards = {
       "ys": "no"
     },
     {
-      "name": "cupp",
+      "name": "cup-p",
       "kor-name": "컵 페이지",
       "up": {
         "fortune": "새로운 감정과 영감을 느낄 수 있는 날.",
@@ -1938,7 +1938,7 @@ Cards = {
       "ys": "no"
     },
     {
-      "name": "cupn",
+      "name": "cup-n",
       "kor-name": "컵 기사",
       "up": {
         "fortune": "감정의 흐름을 따라가는 날.",
@@ -1982,7 +1982,7 @@ Cards = {
       "ys": "no"
     },
     {
-      "name": "cupq",
+      "name": "cup-q",
       "kor-name": "컵 여왕",
       "up": {
         "fortune": "감정적으로 안정된 하루가 될 것이다.",
@@ -2025,7 +2025,7 @@ Cards = {
       "ys": "no"
     },
     {
-      "name": "cupk",
+      "name": "cup-k",
       "kor-name": "컵 왕",
       "up": {
         "fortune": "감정적으로 안정된 날.",
@@ -2070,7 +2070,7 @@ Cards = {
   ],
   "pentacles": [
     {
-      "name": "pentaclesa",
+      "name": "pentacles-a",
       "kor-name": "펜타클 에이스",
       "up": {
         "fortune": "새로운 기회가 열리는 날.",
@@ -2126,7 +2126,7 @@ Cards = {
       "ys": "yes"
     },
     {
-      "name": "pentacles2",
+      "name": "pentacles-2",
       "kor-name": "펜타클 2",
       "up": {
         "fortune": "변화와 조화를 이루는 날.",
@@ -2183,7 +2183,7 @@ Cards = {
       "ys": "no"
     },
     {
-      "name": "pentacles3",
+      "name": "pentacles-3",
       "kor-name": "펜타클 3",
       "up": {
         "fortune": "팀워크와 협력이 필요한 날.",
@@ -2240,7 +2240,7 @@ Cards = {
       "ys": "no"
     },
     {
-      "name": "pentacles4",
+      "name": "pentacles-4",
       "kor-name": "펜타클 4",
       "up": {
         "fortune": "안정과 보존의 날.",
@@ -2297,7 +2297,7 @@ Cards = {
       "ys": "no"
     },
     {
-      "name": "pentacles5",
+      "name": "pentacles-5",
       "kor-name": "펜타클 5",
       "up": {
         "fortune": "어려운 상황에서 희망을 찾는 날.",
@@ -2350,7 +2350,7 @@ Cards = {
       "ys": "no"
     },
     {
-      "name": "pentacles6",
+      "name": "pentacles-6",
       "kor-name": "펜타클 6",
       "up": {
         "fortune": "상호 지원과 나눔의 날.",
@@ -2405,7 +2405,7 @@ Cards = {
       "ys": "no"
     },
     {
-      "name": "pentacles7",
+      "name": "pentacles-7",
       "kor-name": "펜타클 7",
       "up": {
         "fortune": "수확의 날.",
@@ -2459,7 +2459,7 @@ Cards = {
       "ys": "no"
     },
     {
-      "name": "pentacles8",
+      "name": "pentacles-8",
       "kor-name": "펜타클 8",
       "up": {
         "fortune": "노력과 성취의 날.",
@@ -2513,7 +2513,7 @@ Cards = {
       "ys": "no"
     },
     {
-      "name": "pentacles9",
+      "name": "pentacles-9",
       "kor-name": "펜타클 9",
       "up": {
         "fortune": "성취와 만족의 날.",
@@ -2567,7 +2567,7 @@ Cards = {
       "ys": "no"
     },
     {
-      "name": "pentacles10",
+      "name": "pentacles-10",
       "kor-name": "펜타클 10",
       "up": {
         "fortune": "안정과 부유의 날.",
@@ -2621,7 +2621,7 @@ Cards = {
       "ys": "no"
     },
     {
-      "name": "pentaclesp",
+      "name": "pentacles-p",
       "kor-name": "펜타클 페이지",
       "up": {
         "fortune": "새로운 재정적 기회의 발견.",
@@ -2677,7 +2677,7 @@ Cards = {
       "ys": "no"
     },
     {
-      "name": "pentaclesn",
+      "name": "pentacles-n",
       "kor-name": "펜타클 기사",
       "up": {
         "fortune": "신중하고 안정적인 발전.",
@@ -2732,7 +2732,7 @@ Cards = {
       "ys": "no"
     },
     {
-      "name": "pentaclesq",
+      "name": "pentacles-q",
       "kor-name": "펜타클 여왕",
       "up": {
         "fortune": "안정적이고 풍요로운 삶.",
@@ -2787,7 +2787,7 @@ Cards = {
       "ys": "no"
     },
     {
-      "name": "pentaclesk",
+      "name": "pentacles-k",
       "kor-name": "펜타클 왕",
       "up": {
         "fortune": "안정적이고 성공적인 재정 관리.",
@@ -2844,7 +2844,7 @@ Cards = {
   ],
   "swords": [
     {
-      "name": "swordsa",
+      "name": "swords-a",
       "kor-name": "소드 에이스",
       "up": {
         "fortune": "새로운 시작과 아이디어의 출현.",
@@ -2898,7 +2898,7 @@ Cards = {
       "ys": "no"
     },
     {
-      "name": "swords2",
+      "name": "swords-2",
       "kor-name": "소드 2",
       "up": {
         "fortune": "균형을 찾고 조화를 이루는 단계.",
@@ -2943,7 +2943,7 @@ Cards = {
       "ys": "no"
     },
     {
-      "name": "swords3",
+      "name": "swords-3",
       "kor-name": "소드 3",
       "up": {
         "fortune": "상처와 치유의 과정.",
@@ -2982,7 +2982,7 @@ Cards = {
       "ys": "no"
     },
     {
-      "name": "swords4",
+      "name": "swords-4",
       "kor-name": "소드 4",
       "up": {
         "fortune": "휴식과 재충전의 필요.",
@@ -3020,7 +3020,7 @@ Cards = {
       "ys": "no"
     },
     {
-      "name": "swords5",
+      "name": "swords-5",
       "kor-name": "소드 5",
       "up": {
         "fortune": "경쟁과 갈등의 상황.",
@@ -3056,7 +3056,7 @@ Cards = {
       "ys": "no"
     },
     {
-      "name": "swords6",
+      "name": "swords-6",
       "kor-name": "소드 6",
       "up": {
         "fortune": "위험에서 벗어나기 위한 이동.",
@@ -3091,7 +3091,7 @@ Cards = {
       "ys": "no"
     },
     {
-      "name": "swords7",
+      "name": "swords-7",
       "kor-name": "소드 7",
       "up": {
         "fortune": "자신의 이익을 추구하는 상황.",
@@ -3126,7 +3126,7 @@ Cards = {
       "ys": "no"
     },
     {
-      "name": "swords8",
+      "name": "swords-8",
       "kor-name": "소드 8",
       "up": {
         "fortune": "제한과 제약을 극복하는 단계.",
@@ -3161,7 +3161,7 @@ Cards = {
       "ys": "no"
     },
     {
-      "name": "swords9",
+      "name": "swords-9",
       "kor-name": "소드 9",
       "up": {
         "fortune": "걱정과 불안의 극복.",
@@ -3196,7 +3196,7 @@ Cards = {
       "ys": "no"
     },
     {
-      "name": "swords10",
+      "name": "swords-10",
       "kor-name": "소드 10",
       "up": {
         "fortune": "고통의 끝과 새로운 시작.",
@@ -3232,7 +3232,7 @@ Cards = {
       "ys": "no"
     },
     {
-      "name": "swordsp",
+      "name": "swords-p",
       "kor-name": "소드 페이지",
       "up": {
         "fortune": "새로운 아이디어와 호기심의 출현.",
@@ -3269,7 +3269,7 @@ Cards = {
       "ys": "no"
     },
     {
-      "name": "swordsk",
+      "name": "swords-k",
       "kor-name": "소드 나이트",
       "up": {
         "fortune": "용기와 결단력이 요구되는 시기.",
@@ -3306,7 +3306,7 @@ Cards = {
       "ys": "no"
     },
     {
-      "name": "swordsq",
+      "name": "swords-q",
       "kor-name": "소드 퀸",
       "up": {
         "fortune": "지혜와 통찰력의 발휘.",
@@ -3343,7 +3343,7 @@ Cards = {
       "ys": "no"
     },
     {
-      "name": "swordsk",
+      "name": "swords-k",
       "kor-name": "소드 킹",
       "up": {
         "fortune": "권위와 결단력의 필요.",
@@ -3381,7 +3381,7 @@ Cards = {
   ],
   "wand": [
     {
-      "name": "wanda",
+      "name": "wand-a",
       "kor-name": "완드 1",
       "up": {
         "fortune": "새로운 시작과 가능성이 열리는 시기.",
@@ -3438,7 +3438,7 @@ Cards = {
       "ys": "yes"
     },
     {
-      "name": "wand2",
+      "name": "wand-2",
       "kor-name": "완드 2",
       "up": {
         "fortune": "미래를 계획하고 준비하는 시기.",
@@ -3495,7 +3495,7 @@ Cards = {
       "ys": "no"
     },
     {
-      "name": "wand3",
+      "name": "wand-3",
       "kor-name": "완드 3",
       "up": {
         "fortune": "성과와 성장을 축하하는 시기.",
@@ -3552,7 +3552,7 @@ Cards = {
       "ys": "yes"
     },
     {
-      "name": "wand4",
+      "name": "wand-4",
       "kor-name": "완드 4",
       "up": {
         "fortune": "안정감과 기쁨을 느끼는 시기.",
@@ -3609,7 +3609,7 @@ Cards = {
       "ys": "no"
     },
     {
-      "name": "wand5",
+      "name": "wand-5",
       "kor-name": "완드 5",
       "up": {
         "fortune": "경쟁과 갈등이 나타나는 시기.",
@@ -3665,7 +3665,7 @@ Cards = {
       "ys": "yes"
     },
     {
-      "name": "wand6",
+      "name": "wand-6",
       "kor-name": "완드 6",
       "up": {
         "fortune": "성공과 인정을 받는 시기.",
@@ -3722,7 +3722,7 @@ Cards = {
       "ys": "no"
     },
     {
-      "name": "wand7",
+      "name": "wand-7",
       "kor-name": "완드 7",
       "up": {
         "fortune": "경쟁에서의 승리를 나타내는 시기.",
@@ -3779,7 +3779,7 @@ Cards = {
       "ys": "no"
     },
     {
-      "name": "wand8",
+      "name": "wand-8",
       "kor-name": "완드 8",
       "up": {
         "fortune": "빠른 변화와 발전을 나타내는 시기.",
@@ -3828,7 +3828,7 @@ Cards = {
       "ys": "yes"
     },
     {
-      "name": "wand9",
+      "name": "wand-9",
       "kor-name": "완드 9",
       "up": {
         "fortune": "강한 의지를 나타내는 시기.",
@@ -3871,7 +3871,7 @@ Cards = {
       "ys": "no"
     },
     {
-      "name": "wand10",
+      "name": "wand-10",
       "kor-name": "완드 10",
       "up": {
         "fortune": "과중한 책임을 느끼는 시기.",
@@ -3910,7 +3910,7 @@ Cards = {
       "ys": "yes"
     },
     {
-      "name": "wandp",
+      "name": "wand-p",
       "kor-name": "완드 페이지",
       "up": {
         "fortune": "새로운 아이디어와 창의력이 솟구치는 시기.",
@@ -3954,7 +3954,7 @@ Cards = {
       "ys": "yes"
     },
     {
-      "name": "wandn",
+      "name": "wand-n",
       "kor-name": "완드 나이트",
       "up": {
         "fortune": "열정적이고 빠른 변화가 일어나는 시기.",
@@ -3992,7 +3992,7 @@ Cards = {
       "ys": "no"
     },
     {
-      "name": "wandq",
+      "name": "wand-q",
       "kor-name": "완드 퀸",
       "up": {
         "fortune": "자신의 감정을 잘 표현할 수 있는 시기.",
@@ -4029,7 +4029,7 @@ Cards = {
       "ys": "yes"
     },
     {
-      "name": "wandk",
+      "name": "wand-k",
       "kor-name": "완드 킹",
       "up": {
         "fortune": "리더십과 권위를 상징하는 시기.",
