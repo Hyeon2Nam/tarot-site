@@ -44,6 +44,7 @@ function initialize() {
 
 function initCards() {
   const jsonData = JSON.parse(JSON.stringify(Cards));
+
   cardList = cardList.concat(jsonData.major);
   cardList = cardList.concat(jsonData.cup);
   cardList = cardList.concat(jsonData.pentacles);
@@ -74,13 +75,16 @@ function addCardList() {
   let upDown = num >= 78 ? "down" : "up";
   let tmp = cardList[upDown === "down" ? num - 78 : num];
   let obj = {
+    id: cnt + 1 + "",
     name: tmp.name,
     "kor-name": tmp["kor-name"],
     upDown: upDown,
+    read: false,
   };
 
   if (type === "ys") obj[type] = tmp.ys;
-  else obj[type] = tmp[upDown][type];
+  else if (type == "fortune") obj[type] = tmp[upDown][type];
+  else obj[type] = tmp[upDown][type][cnt + 1 + ""];
 
   selected.push(obj);
   cardList.splice(num, 1);

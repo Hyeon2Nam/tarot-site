@@ -76,16 +76,19 @@ body {
 .button-wrapper {
   text-align: center;
   position: absolute;
+  display: flex;
   width: 100%;
   z-index: 1;
   top: 1050px;
   margin-bottom: 1rem;
+  align-items: center;
+  justify-content: center;
 
   button {
     width: 17%;
     height: 7vh;
     font-size: 2rem;
-    margin: 0 30px;
+    margin: 0 30px 3rem 30px;
     color: #212135;
     border-radius: 10px;
   }

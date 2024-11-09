@@ -29,7 +29,6 @@ function makeCards() {
         <img class="front-img card_face" src="../../cards/back.png" />
         </div>
       </div>
-    <span>${tarot[i]["kor-name"]}</span>
       `;
   }
 
@@ -60,43 +59,79 @@ function getCardInfo(name) {
 
 // cnt - 는 몇번째로 뽑은 카드인지
 function makeScript(cnt, name) {
-  // const fortuneList = ["오전의 운세 - ", "오후의 운세 - "];
-  // const loveList = [];
-  // const careerList = [];
-  // const moneyList = [];
-
   if (cnt === undefined) return;
 
   let cardInfo = getCardInfo(name);
 
-  console.log(cardInfo);
-
   if (cardInfo === null || cardInfo === undefined || cardInfo === "") {
-    console.log("error");
-    // location.href = "home.html";
+    location.href = "home.html";
   }
 
-  // switch (type) {
-  //   case "fortune":
-  //     max = 2;
-  //     break;
-  //   case "love":
-  //     max = 6;
-  //     break;
-  //   case "money":
-  //     max = 5;
-  //     break;
-  //   case "career":
-  //     max = 7;
-  //     break;
-  //   case "ys":
-  //     max = 1;
-  //     break;
+  if (cardInfo["read"] === true) return;
 
-  //   default:
-  //     location.href = "home.html";
-  //     break;
-  // }
+  const fortuneList = ["오전의 운세", "오후의 운세"];
+  const loveList = [
+    "상대방의 외모",
+    "마주쳤을 때 내 반응",
+    "상대방의 성격",
+    "지금 만나지 못하는 이유",
+    "조언점",
+    "만나게 되는 상황",
+  ];
+  const careerList = [
+    "자신의 진정한 진로 적성",
+    "진로 개발을 위해 해야하는 것",
+    "진로 관련 예상되는 어려움",
+    "현재 상태의 직업 수준이나 근무 성과",
+    "현재 상태를 개선 할 수 있는 방법",
+    "현재 상태에 영향을 미치고 있는 과거 원인",
+    "이후 기대할 수 있는 결과",
+  ];
+  const moneyList = [
+    "현재 금전적 상황 또는 돈에 얽힌 인간관계",
+    "돈에 대한 시각이나 태도",
+    "과거의 금전상태, 돈과 관련해서 과거의 인물이 주는 영향, 또한 어떻게 해서 돈에 대한 지금의 생각을 가지게 되었는지",
+    "돈과 어떤 정신적 관계, 금전적인 일과 관련해서 질문자가 배워야할 점",
+    "현재의 금전환경을 벗어나기 위해서 취해야할 행동",
+  ];
+  let scriptList = null;
+
+  switch (type) {
+    case "fortune":
+      scriptList = fortuneList;
+      break;
+    case "love":
+      scriptList = loveList;
+      break;
+    case "money":
+      scriptList = moneyList;
+      break;
+    case "career":
+      scriptList = careerList;
+      break;
+    case "ys":
+      scriptList = ["Yes Or No"];
+      break;
+
+    default:
+      location.href = "home.html";
+      break;
+  }
+
+  let id = cardInfo["id"];
+
+  let interpretationBox = "";
+  interpretationBox += "<div class='script-box'>";
+  interpretationBox += `  <div class="sub-title">${scriptList[+id - 1]}`;
+  interpretationBox += ` <span class='card-name'>카드 - ${cardInfo["kor-name"]}</span>`;
+  interpretationBox += "</div><hr />";
+  interpretationBox += `  <div class="content">${cardInfo[type]}</div>`;
+  interpretationBox += "</div>";
+
+  document.getElementsByClassName("interpretation-box")[0].innerHTML +=
+    interpretationBox;
+
+  tarot[+id - 1]["read"] = true;
 }
 
-function showCardInfo(name) {}
+// function showCardInfo(name) {}
